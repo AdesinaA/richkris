@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Jost:wght@200;300;400;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root { --charcoal: #171918; --ivory: #F5F2EB; --champagne: #B69A70; }
+html { scroll-behavior: smooth; }
+body { background: #171918; color: #F5F2EB; font-family: Jost, sans-serif; -webkit-font-smoothing: antialiased; }
+::selection { background: #B69A70; color: #171918; }
+.font-serif { font-family: 'Cormorant Garamond', Georgia, serif; }
+.editorial-line { height: 1px; background: linear-gradient(90deg, transparent, rgba(182,154,112,.7), transparent); }
+.img-duotone { filter: saturate(.82) contrast(1.04) brightness(.96); }
+.vertical-text { writing-mode: vertical-rl; text-orientation: mixed; }
+/* thin scrollbar */
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: #171918; }
+::-webkit-scrollbar-thumb { background: #3a3d3b; border-radius: 8px; }
+input, select, textarea { outline: none; }
+input:focus, select:focus, textarea:focus { border-color: #B69A70 !important; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+@keyframes kenburns { 0% { transform: scale(1.12); } 100% { transform: scale(1); } }
+@keyframes slowzoom { 0% { transform: scale(1); } 100% { transform: scale(1.08); } }
