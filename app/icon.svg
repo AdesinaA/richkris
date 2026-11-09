@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img">
+  <title>Richkris — RK monogram</title>
+  <!-- MASTER ASSET: all favicon rasters (PNG / ICO) are generated from this file via scripts/generate-favicons.mjs -->
+  <rect width="512" height="512" fill="#171918"/>
+  <g fill="none" stroke="#B69A70" stroke-linecap="square">
+    <!-- R stem + bowl -->
+    <path d="M120 136 V376" stroke-width="40"/>
+    <path d="M120 136 H192 A60 60 0 0 1 192 256 H120" stroke-width="40"/>
+    <!-- R leg -->
+    <path d="M168 256 L264 376" stroke-width="40"/>
+    <!-- K stem + architectural diagonals -->
+    <path d="M304 136 V376" stroke-width="40"/>
+    <path d="M304 264 L400 136" stroke-width="40"/>
+    <path d="M304 264 L400 376" stroke-width="40"/>
+    <!-- Serif flares on the four stem ends -->
+    <g stroke-width="20">
+      <path d="M88 136 H152"/>
+      <path d="M88 376 H152"/>
+      <path d="M272 136 H336"/>
+      <path d="M272 376 H336"/>
+    </g>
+  </g>
+</svg>
